@@ -1,0 +1,17 @@
+type Message @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  message: String!
+  recipientPhoneNumber: AWSPhone!
+  waitTimestamp: AWSDateTime!
+  ttl: Int!
+}
+
+input FutureMessageInput {
+  message: String!
+  recipientPhoneNumber: AWSPhone!
+  waitTimestamp: AWSDateTime!
+}
+type Mutation {
+  setFutureMessage(futureMessageInput: FutureMessageInput!): String
+    @function(name: "invokeFutureSNS-${env}")
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "Action": ["states:StartExecution"],
+    "Resource": [
+      "arn:aws:states:us-east-1:987092829714:stateMachine:future-text-message-${env}"
+    ]
+  }
+]

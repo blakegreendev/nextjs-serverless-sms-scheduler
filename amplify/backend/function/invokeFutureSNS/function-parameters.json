@@ -1,0 +1,9 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "stateMachineArn",
+      "environmentVariableName": "STATE_MACHINE_ARN"
+    }
+  ]
+}

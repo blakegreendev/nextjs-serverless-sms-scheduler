@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nextjsserverlesssmss",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnextjsserverlesssmss62b60f2b",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

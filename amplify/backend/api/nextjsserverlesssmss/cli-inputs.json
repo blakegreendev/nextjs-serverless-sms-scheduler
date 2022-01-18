@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextjsserverlesssmss",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/blake/Github/nextjs-serverless-sms-scheduler/amplify/backend/api/nextjsserverlesssmss/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authnextjsserverlesssmss62b60f2b"
+    }
+  }
+}

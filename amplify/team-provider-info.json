@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextjsserverlesssmss-dev-120547-authRole",
+      "UnauthRoleArn": "arn:aws:iam::987092829714:role/amplify-nextjsserverlesssmss-dev-120547-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::987092829714:role/amplify-nextjsserverlesssmss-dev-120547-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nextjsserverlesssmss-dev-120547-deployment",
+      "UnauthRoleName": "amplify-nextjsserverlesssmss-dev-120547-unauthRole",
+      "StackName": "amplify-nextjsserverlesssmss-dev-120547",
+      "StackId": "arn:aws:cloudformation:us-east-1:987092829714:stack/amplify-nextjsserverlesssmss-dev-120547/8e4ae610-76ee-11ec-835f-0e3b9b06dfed",
+      "AmplifyAppId": "d1894vat8y3nel"
+    },
+    "categories": {
+      "auth": {
+        "nextjsserverlesssmss62b60f2b": {}
+      },
+      "function": {
+        "invokeFutureSNS": {
+          "stateMachineArn": "arn:aws:states:us-east-1:987092829714:stateMachine:future-text-message",
+          "deploymentBucketName": "amplify-nextjsserverlesssmss-dev-120547-deployment",
+          "s3Key": "amplify-builds/invokeFutureSNS-593332637545786a7747-build.zip"
+        },
+        "SNSPublisher": {
+          "deploymentBucketName": "amplify-nextjsserverlesssmss-dev-120547-deployment",
+          "s3Key": "amplify-builds/SNSPublisher-4f37754f39496777534b-build.zip"
+        }
+      }
+    }
+  }
+}
