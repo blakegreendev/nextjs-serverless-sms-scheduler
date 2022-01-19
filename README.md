@@ -11,3 +11,5 @@ This project uses the following stack:
   - CDK Integration for Custom Services
   - AWS Step Functions
   - Amazon SNS
+
+Credit: https://blog.focusotter.com/fullstack-workshop-create-an-sms-scheduler-with-nextjs-and-aws-amplify
